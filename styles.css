@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.gameName {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.userInput {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.userInput button {
+    border: 2px solid black;
+    height: 40px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    font-family: monospace;
+    background-color: aqua;
+}
+
+.gridContainer {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    height: 500px;
+    width: 500px;
+    margin: 2rem auto;
+    display: grid;
+}
+
+.box {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+
+
+
