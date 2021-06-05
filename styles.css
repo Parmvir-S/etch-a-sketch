@@ -58,6 +58,7 @@
     width: 500px;
     margin: 2rem auto;
     display: grid;
+    box-shadow: 4px 5px #888888;
 }
 
 .box {
