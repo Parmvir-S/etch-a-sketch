@@ -1,5 +1,4 @@
 const gridContainer = document.querySelector(".gridContainer");
-console.log(gridContainer);
 window.addEventListener("load", function() {
     setGrid(4);
     makeGrid(4);
@@ -35,3 +34,12 @@ button.addEventListener("click", function() {
     makeGrid(userInput);
 })
 
+function clearColor() {
+    let count = gridContainer.children;
+    for (let i = 0; i < count.length; i++) {
+        count[i].style.cssText = "background-color: aqua;";
+    }
+} 
+
+const button2 = document.querySelector("#clearGrid");
+button2.addEventListener("click", clearColor);
